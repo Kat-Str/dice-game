@@ -4,12 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Roll the dice!</h1>
-    <p>Player 1</p>
-    <p>Player 2</p>
+    <div class="container">
+      <button id="button">Roll the dice!</button>
+      <div class="child-container">
+        <p class="player">Player 1</p>
+        <img src="./media/dice6.png" id="first-players-dice" width="250px" />
+      </div>
+      <div class="child-container">
+        <p>Player 2</p>
+        <img src="./media/dice6.png" id="second-players-dice" width="250px" />
+      </div>
+      <h2>Player wins!</h2>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
